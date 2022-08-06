@@ -1511,6 +1511,9 @@ body {
 }
 
 .apple__view {
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
   -webkit-box-flex: 1;
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
@@ -2278,6 +2281,9 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 @supports (font-size: clamp( 1rem , 0.8979591837rem  +  0.5102040816vw , 1.3125rem )) {
@@ -2978,6 +2984,10 @@ body {
             transform: scale(1.6);
   }
 
+  .apple__view:hover {
+    color: #10B981;
+  }
+
   .sallers__button:hover {
     -webkit-transform: scale(1);
         -ms-transform: scale(1);
@@ -2988,5 +2998,9 @@ body {
     -webkit-transform: scale(1);
         -ms-transform: scale(1);
             transform: scale(1);
+  }
+
+  .airdrop__view:hover {
+    color: #10B981;
   }
 }
